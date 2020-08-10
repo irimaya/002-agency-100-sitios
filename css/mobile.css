@@ -1,62 +1,55 @@
-/* global */
-h1 {
-  padding-bottom: 0px;
+/* Utily Classes */
+.p-80 {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-/* navbar */
+.box {
+  width: 100%;
+  float: none;
+}
+
+/* Header */
+#header-top {
+  height: 100%;
+}
+
+/* Navbar */
 #navbar {
-  height: auto;
+  text-align: center;
 }
 
 #navbar .logo {
   float: none;
-  /* font-size: 1.4em; */
-  text-align: center;
-  /* display: none; */
-  padding-top: 10px;
 }
 
-#navbar ul,
-#navbar ul li{
+#navbar ul {
   float: none;
-  /* font-size: .9em; */
+  display: block;
 }
 
-#navbar ul li .icon{
+#navbar ul li {
+  float: none;
+  padding:10px;
+}
+
+#navbar ul li:nth-child(4) {
   display: none;
 }
 
-#navbar ul li a {
-  padding: 5px;
+/* Showcase */
+#showcase {
+  padding: 40px;
 }
 
-/* showcase */
-#showcase .showcase-content {
-  padding-top: 280px;
-}
+/* Contact */
+#contact input,
+#contact textarea
+ {
+   width: 100%;
+ }
 
-#showcase .showcase-content h1{
-  /* padding-top: 40px; */
-  line-height: 1.3em;
-}
-
-/* services */
-#services {
-  height: auto;
-}
-
-.box {
-  float: none;
-  width: 100%;
-}
-
-/* footer */
-#main-footer{
-  height: auto;
-  text-align: center;
-}
-
-.mini-box{
-  float: none;
-  width: 100%;
-}
+ /* Footer */
+ #mainfooter {
+   text-align: center;
+ }
